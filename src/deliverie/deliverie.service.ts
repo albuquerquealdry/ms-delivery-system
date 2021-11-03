@@ -28,7 +28,7 @@ export class DeliverieService {
       },
       {
       
-        $set : updateDeliverieDto,
+        $set : {delivery:true}
       },
       {
         new: true,
